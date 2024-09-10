@@ -69,7 +69,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    shikiConfig: {  theme: 'github-light' },
+    shikiConfig: {  theme: 'github-dark' },
     remarkPlugins: [remarkMath, remarkReadingTime, remarkExcerpt, remarkGithubAdmonitionsToDirectives, remarkDirective, parseDirectiveNode],
     rehypePlugins: [
       rehypeKatex,
