@@ -69,6 +69,7 @@ export default defineConfig({
     }),
   ],
   markdown: {
+    shikiConfig: {  theme: 'dracula' },
     remarkPlugins: [remarkMath, remarkReadingTime, remarkExcerpt, remarkGithubAdmonitionsToDirectives, remarkDirective, parseDirectiveNode],
     rehypePlugins: [
       rehypeKatex,
